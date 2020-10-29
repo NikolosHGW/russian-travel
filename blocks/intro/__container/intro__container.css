@@ -1,0 +1,5 @@
+.intro__container {
+  margin: 92px 286px 92px 48px;
+  display: flex;
+  flex-direction: column;
+}
