@@ -3,7 +3,7 @@
   text-align: center;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1000px) {
   .cover__section-title {
     font-size: 72px;
     line-height: 76px;
