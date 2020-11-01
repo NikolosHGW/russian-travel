@@ -1,6 +1,5 @@
 .cover__section-title {
-  width: 560px;
-  height: 152px;
+  max-width: 560px;
   text-align: center;
 }
 

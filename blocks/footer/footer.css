@@ -3,3 +3,9 @@
   box-sizing: border-box;
   padding: 92px 48px 24px;
 }
+
+@media screen and (max-width: 786px) {
+  .footer {
+    padding: 88px 24px 24px;
+  }
+}
