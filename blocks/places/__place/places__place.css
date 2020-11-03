@@ -8,6 +8,7 @@
   column-gap: 32px;
   row-gap: 48px;
   margin-bottom: 80px;
+  font-family: 'Inter', 'Helvetica Neue', 'Arial', sans-serif;
 }
 
 .places__place:last-child {

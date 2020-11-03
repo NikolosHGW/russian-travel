@@ -1,4 +1,35 @@
 .cover {
   width: 100%;
   display: flex;
+  font-family: 'Inter', 'Helvetica Neue', 'Arial', sans-serif;
+  background-image: url("../../../images/cover-trains.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.cover:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #2A2C2F;
+  opacity: 0.3;
+  transition: opacity .6s linear;
+  z-index: 2;
+}
+
+@media screen and (min-width: 1024px) {
+  .cover:hover:after {
+    opacity: 0.8;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .cover {
+    max-width: 1184px;
+    margin: 0 48px;
+  }
 }

@@ -1,3 +1,7 @@
-.header__line:first-child {
+.header__line {
   margin-right: 18px;
+}
+
+.header__line:last-child {
+  margin-right: 0;
 }
